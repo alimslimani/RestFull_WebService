@@ -1,0 +1,42 @@
+{
+  "name": "restfull_webservice",
+  "version": "1.0.0",
+  "description": "RESTful Web Services with Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimslimani/RestFull_WebService.git"
+  },
+  "author": "alimslimani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alimslimani/RestFull_WebService/issues"
+  },
+  "homepage": "https://github.com/alimslimani/RestFull_WebService#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "250",
+    "env": {
+      "NODE_ENV": "developement",
+      "PORT": 4000
+    }
+  }
+}
