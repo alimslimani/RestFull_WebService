@@ -8,3 +8,4 @@ RESTful Web Services with Node.js and Express
 - npm i eslint -D
 - npm i nodemon /*relaunch server after any modification*/
 - npm i mongoose
+- npm i body-parser
